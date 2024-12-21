@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+body {
+	background-color: lightgray;
+}
+main {
+	margin-left: auto; /*Für die Zentrierung des Hauptsspiels */
+  	margin-right: auto;
+	flex-wrap: wrap; /* Sonst steht alles in einer Reihe */
+	width: 27em; /* Pasts gut mit den einzelen Div Feldern, die 6em breit sind */
+	display: flex; /* Damit die divs auch nebeneinander stehen können */
+	border-style: solid; /* die spielfeldgrenze einrichten */
+	border-width: 0.7em;
+	border-color: black;
+	background-color: white;
+}
+.spielfelder {
+    width: 6em; /* Beispielbreite für jedes div */
+    height: 4em; /* Beispielhöhe für jedes div */
+    text-align: center; /*Damit die Cookies in der MItte sind (links und rechts) */
+    margin: 0.2em; /*rchtige Größe der Cookies nach oben und unten */
+    border-style: solid; /*einzelnen Spielfelder eingrenzen */
+	border-width: 0.2em;
+	border-color: black;
+}
+
+i {
+	font-size: 2.5em; /* Größe der Cookies */
+}
+h1 {
+	text-align: center; /* damit Titel zentral steht*/
+	margin-top: 0.5em; /*Titel bisschen weiter weg von der Suchleiste*/
+}
+footer {
+	text-align: center; /* Scoreboard im Zentrum steht */
+	background-color: white; /* Rand + Hintergundfrabe */
+	border-style: solid;
+	border-width: 0.2em;
+	border-color: black;
+	margin: 1em; /*Abstand nach oben zum Spiel */
+}
